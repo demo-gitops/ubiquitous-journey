@@ -12,7 +12,7 @@ applications:
   # Bootstrap Project
   - name: bootstrap
     enabled: true
-    source: https://redhat-cop.github.io/helm-charts
+    source: https://demo-gitops.github.io/helm-charts
     chart_name: bootstrap-project
     source_ref: "1.0.1"
     values:
@@ -52,7 +52,7 @@ applications:
   # Jenkins
   - name: jenkins
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/jenkins
     source_ref: "jenkins-1.0.7"
     values:
@@ -65,7 +65,7 @@ applications:
   # Nexus
   - name: nexus
     enabled: true
-    source: https://redhat-cop.github.io/helm-charts
+    source: https://demo-gitops.github.io/helm-charts
     chart_name: sonatype-nexus
     source_ref: "1.1.4"
     values:
@@ -97,7 +97,7 @@ applications:
   # example of an actual secret ...
   - name: sealed-secrets
     enabled: false
-    source: https://redhat-cop.github.io/helm-charts
+    source: https://demo-gitops.github.io/helm-charts
     chart_name: helper-sealed-secrets
     source_ref: "1.0.3"
     values:
@@ -116,7 +116,7 @@ applications:
   # Sonarqube
   - name: sonarqube
     enabled: true
-    source: https://redhat-cop.github.io/helm-charts
+    source: https://demo-gitops.github.io/helm-charts
     chart_name: sonarqube
     source_ref: "0.1.0"
     values:
@@ -168,7 +168,7 @@ applications:
   # Pact-broker
   - name: pact-broker
     enabled: true
-    source: https://redhat-cop.github.io/helm-charts
+    source: https://demo-gitops.github.io/helm-charts
     source_ref: "0.0.8"
     values:
       # update the passwords :)

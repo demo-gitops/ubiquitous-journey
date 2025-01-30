@@ -60,7 +60,7 @@ applications:
   # Etherpad
   - name: etherpad
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/etherpad
     destination: *pm_ns
     source_ref: "etherpad-0.0.7"
@@ -68,7 +68,7 @@ applications:
   # Dev-Ex Dashboard
   - name: dev-ex-dashboard
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/dev-ex-dashboard
     destination: *pm_ns
     source_ref: "dev-ex-dashboard-0.0.2"
@@ -86,7 +86,7 @@ applications:
   # Owncloud
   - name: owncloud
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/owncloud
     destination: *pm_ns
     source_ref: "owncloud-0.0.2"

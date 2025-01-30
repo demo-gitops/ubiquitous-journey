@@ -21,7 +21,7 @@ argocd proj create bootstrap-journey \
   -d https://kubernetes.default.svc,labs-cluster-ops \
   -s https://github.com/rht-labs/ubiquitous-journey.git \
   -s https://github.com/rht-labs/refactored-adventure.git \
-  -s https://github.com/redhat-cop/helm-charts.git
+  -s https://github.com/demo-gitops/helm-charts.git
 ```
 
 3. You will require elevated permissions in the master argocd project:

@@ -28,7 +28,7 @@ applications:
   # Nexus
   - name: nexus
     enabled: false
-    source: https://redhat-cop.github.io/helm-charts
+    source: https://demo-gitops.github.io/helm-charts
     chart_name: sonatype-nexus
     source_path: ""
     source_ref: "1.1.1"
@@ -45,7 +45,7 @@ applications:
   # Jenkins
   - name: jenkins
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/jenkins
     source_ref: "jenkins-0.0.21"
     sync_policy: *sync_policy_true
@@ -75,7 +75,7 @@ applications:
   # Pact-broker
   - name: pact-broker
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/pact-broker
     source_ref: "pact-broker-0.0.3"
     sync_policy: *sync_policy_true
@@ -86,7 +86,7 @@ applications:
   # Sonarqube
   - name: sonarqube
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/sonarqube
     source_ref: "sonarqube-0.0.17"
     sync_policy: *sync_policy_true

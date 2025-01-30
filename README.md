@@ -2,7 +2,7 @@
 
 🧰 This repo embodies a GitOps approach to deploying application code, middleware infrastructure and supporting CI/CD tools. 🧰
 
-At its simplest, the repo is an [ArgoCD Application](https://argo-cd.readthedocs.io/en/stable/core_concepts/) which references [other helm charts](https://github.com/redhat-cop/helm-charts.git) and [other kustomize definitions](https://github.com/rht-labs/refactored-adventure) to deploy applications.
+At its simplest, the repo is an [ArgoCD Application](https://argo-cd.readthedocs.io/en/stable/core_concepts/) which references [other helm charts](https://github.com/demo-gitops/helm-charts.git) and [other kustomize definitions](https://github.com/rht-labs/refactored-adventure) to deploy applications.
 
 The idea is to reference other Charts, Kustomize, YAML snippets from within this framework. This keeps things `pluggable` to suit the needs of your team.
 
@@ -84,7 +84,7 @@ Install an instance of ArgoCD. There are several methods to install ArgoCD in Op
 Use the Red Hat supported GitOps Operator (configured by default as cluster wide and to deploy the operator and an instance in `labs-ci-cd`)
 
 ```bash
-helm repo add redhat-cop https://redhat-cop.github.io/helm-charts
+helm repo add redhat-cop https://demo-gitops.github.io/helm-charts
 helm upgrade --install argocd \
   --create-namespace \
   --namespace labs-ci-cd \

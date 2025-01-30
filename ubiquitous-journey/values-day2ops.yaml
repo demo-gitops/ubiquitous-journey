@@ -31,6 +31,6 @@ applications:
   # Network Policies for Emulating Multitenancy
   - name: network-policy
     enabled: false
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_ref: "networkpolicy-1.0.0"
 

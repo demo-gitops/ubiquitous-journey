@@ -64,4 +64,4 @@ argocd-operator:
     initialRepositories: |
       - name: redhat-cop
         type: helm
-        url: https://redhat-cop.github.io/helm-charts
+        url: https://demo-gitops.github.io/helm-charts

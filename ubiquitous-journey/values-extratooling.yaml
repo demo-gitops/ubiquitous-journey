@@ -37,14 +37,14 @@ applications:
   # Etherpad
   - name: etherpad
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/etherpad
     source_ref: "etherpad-0.0.7"
 
   # Owncloud
   - name: owncloud
     enabled: true
-    source: https://github.com/redhat-cop/helm-charts.git
+    source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/owncloud
     source_ref: "owncloud-0.0.2"
     values:

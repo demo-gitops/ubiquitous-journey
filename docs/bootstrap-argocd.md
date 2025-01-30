@@ -2,7 +2,7 @@
 
 ![bootstrap-uj](images/bootstrap-uj.png)
 
-The `bootstrap` helm chart will create your **Labs's CI/CD**, **Dev**, **Test** and **Staging** namespaces. Fill them with service accounts and normal role bindings as defined in the [bootstrap project helm chart](https://github.com/redhat-cop/helm-charts/blob/master/charts/bootstrap-project/values.yaml). You can override them by updating any of the values in `bootstrap/values-bootstrap.yaml` before running `helm template`.
+The `bootstrap` helm chart will create your **Labs's CI/CD**, **Dev**, **Test** and **Staging** namespaces. Fill them with service accounts and normal role bindings as defined in the [bootstrap project helm chart](https://github.com/demo-gitops/helm-charts/blob/master/charts/bootstrap-project/values.yaml). You can override them by updating any of the values in `bootstrap/values-bootstrap.yaml` before running `helm template`.
 It will also deploy an ArgoCD Instance into one of these namespaces (default to `labs-ci-cd`) along with an instance of Sealed Secrets by Bitnami if enabled (default disabled).
 
 If you want to override namespaces see [Deploy to a custom namespace](deploy-custom-namespace.md).
