@@ -51,7 +51,7 @@ applications:
 
   # Jenkins
   - name: jenkins
-    enabled: true
+    enabled: false
     source: https://github.com/demo-gitops/helm-charts.git
     source_path: charts/jenkins
     source_ref: "jenkins-1.0.7"
@@ -64,7 +64,7 @@ applications:
 
   # Nexus
   - name: nexus
-    enabled: true
+    enabled: false
     source: https://demo-gitops.github.io/helm-charts
     chart_name: sonatype-nexus
     source_ref: "1.1.11"
@@ -75,7 +75,7 @@ applications:
   # Sealed Secrets Controller
   # Note you can only have one of these per cluster so be careful 
   - name: sealed-secrets-controller
-    enabled: true
+    enabled: false
     chart_name: sealed-secrets
     source: https://bitnami-labs.github.io/sealed-secrets
     source_ref: "2.1.6"
@@ -115,7 +115,7 @@ applications:
   
   # Sonarqube
   - name: sonarqube
-    enabled: true
+    enabled: false
     source: https://demo-gitops.github.io/helm-charts
     chart_name: sonarqube
     source_ref: "0.1.0"
@@ -142,7 +142,7 @@ applications:
 
   # Zalenium
   - name: zalenium
-    enabled: true
+    enabled: false
     source: https://github.com/zalando/zalenium.git
     source_path: charts/zalenium
     source_ref: "master"
@@ -167,7 +167,7 @@ applications:
 
   # Pact-broker
   - name: pact-broker
-    enabled: true
+    enabled: false
     source: https://demo-gitops.github.io/helm-charts
     source_ref: "0.0.8"
     values:
@@ -175,7 +175,7 @@ applications:
  
    # Hoverfly
   - name: hoverfly
-    enabled: true
+    enabled: false
     source: https://github.com/helm/charts.git
     source_path: incubator/hoverfly
     source_ref: "master"
