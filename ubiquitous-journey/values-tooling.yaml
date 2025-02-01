@@ -176,7 +176,7 @@ applications:
    # Hoverfly
   - name: hoverfly
     enabled: true
-    source: https://github.com/demo-gitops/charts.git
+    source: https://demo-gitops.github.io/helm-charts
     source_ref: "0.1.4"
     values:
       image:
