@@ -169,7 +169,7 @@ applications:
   - name: pact-broker
     enabled: true
     source: https://demo-gitops.github.io/helm-charts
-    source_ref: "0.0.8"
+    source_ref: "0.0.9"
     values:
       # update the passwords :)
  
