@@ -177,7 +177,6 @@ applications:
   - name: hoverfly
     enabled: true
     source: https://github.com/demo-gitops/charts.git
-    source_path: charts/hoverfly
     source_ref: "0.1.4"
     values:
       image:
