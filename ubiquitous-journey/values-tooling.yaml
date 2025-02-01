@@ -176,7 +176,7 @@ applications:
    # Hoverfly
   - name: hoverfly
     enabled: true
-    source: https://github.com/helm/charts.git
+    source: https://github.com/demo-gitops/charts.git
     source_path: incubator/hoverfly
     source_ref: "master"
     values:
