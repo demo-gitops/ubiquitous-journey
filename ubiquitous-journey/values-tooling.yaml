@@ -118,7 +118,7 @@ applications:
     enabled: true
     source: https://demo-gitops.github.io/helm-charts
     chart_name: sonarqube
-    source_ref: "0.1.0"
+    source_ref: "0.1.12"
     values:
       # if integrating into an existing sealed secret or other cluster secret 
       # account:
