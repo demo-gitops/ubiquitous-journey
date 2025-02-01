@@ -177,11 +177,11 @@ applications:
   - name: hoverfly
     enabled: true
     source: https://github.com/demo-gitops/charts.git
-    source_path: incubator/hoverfly
-    source_ref: "master"
+    source_path: charts/hoverfly
+    source_ref: "0.1.4"
     values:
       image:
-        tag: v1.3.3
+        tag: 
       openshift:
         route:
           admin:
